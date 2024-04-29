@@ -1,0 +1,19 @@
+{
+ "name": "Josh", //klucz-wartość string
+ "weight": 175, //klucz-wartość number
+  "age": 30, //klucz-wartość number
+  "eyecolor": "brown", //klucz-wartość string
+  "isHappy": true, // klucz-wartość boolean
+  "cars": ["Chevy", "Honda"], //klucz-wartość array
+  "favoriteBook":{
+    "title": "The Last Kingdom",
+    "author": "Bernard Cornwell",
+    "rating": 8.38,
+   } //klucz-wartość object
+},
+  
+
+// JSON ma format tekstowy, dzięki czemu możemy przechowywać i przekazywać dane strukturalne. 
+// Składnia przypomina składnię obiektu, ale nim nie jest - zarówno klucze 
+// (tj. name, weight, age, eyecolor, , isHappy,cars, favoriteBook) jak i wartości ujęte są w podwójne cudzysłowy 
+// (poza wartościami number, boolean)
